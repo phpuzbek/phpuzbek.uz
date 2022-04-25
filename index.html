@@ -92,17 +92,11 @@
     </style>
 </head>
 <body>
-    <div class="step" data-text="Coming soon"></div>
-    
-    <script>
-        (() => {
-            let step = $('.step'),
-            stepText = step.data('text');
-            for (var i = 0; i < 4; i++) {
-                let newStep = $('<span><span>' + stepText + '</span></span>');
-                step.append(newStep);
-            }   
-        })()
-    </script>
+    <div class="step">
+        <span><span>Coming soon</span></span>
+        <span><span>Coming soon</span></span>
+        <span><span>Coming soon</span></span>
+        <span><span>Coming soon</span></span>
+    </div>
 </body>
 </html>
